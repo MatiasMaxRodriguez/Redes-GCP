@@ -1,0 +1,53 @@
+# Directorios locales de Terraform
+**/.terraform/*
+
+# Archivos de estado de Terraform
+**/*.tfstate
+**/*.tfstate.*  
+
+# Archivos de lock de Terraform
+**/*.tfstate.backup
+**/*.tfstate.backup.*   
+
+# Archivos de log de Terraform
+**/*.log
+
+# Archivos de variables de Terraform
+**/*.tfvars
+**/*.tfvars.json
+
+# Archivos de crash logs
+**/*.crash.log
+    
+# Archivos de provider lock files
+**/provider-lock.hcl
+**/*.provider-lock.hcl
+**/.terraform.lock.hcl
+**/*.terraform.lock.hcl
+
+# Archivos de provider cache
+**/provider-cache
+**/*.provider-cache
+
+# Archivos de provider schemas
+**/provider-schemas
+**/*.provider-schemas   
+
+# Archivos de backup de Terraform
+**/*.backup
+**/*.backup.*
+
+# Archivos de anulaciones de configuracion de Terraform
+**/*.tfignore
+**/*.tfignore.* 
+
+# Archivos de anulaciones de salida de Terraform
+**/*.tfplan
+**/*.tfplan.*   
+
+# Archivos de anulacion de configuracion (overrides)
+**/*.tfoverride
+**/*.tfoverride.*   
+override.tf.json
+*_override.tf
+*_override.tf.json  
